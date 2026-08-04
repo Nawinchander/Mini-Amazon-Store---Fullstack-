@@ -1,0 +1,18 @@
+Mini Amazon Store
+
+Features
+Login (Simple JWT)
+Product Listing
+Search Products
+Dashboard
+Add Product
+MongoDB
+MySQL (Users)
+REST API
+React Frontend
+Vue Frontend
+Docker
+GitHub Actions
+Jest Testing
+
+
