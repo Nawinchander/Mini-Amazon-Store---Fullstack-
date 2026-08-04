@@ -1,0 +1,18 @@
+mini-amazon-store/
+│
+├── backend/
+│
+├── frontend-react/
+│
+├── frontend-vue/
+│
+├── docker/
+│
+├── .github/
+│     └── workflows/
+│
+├── README.md
+│
+└── system-design/
+
+
