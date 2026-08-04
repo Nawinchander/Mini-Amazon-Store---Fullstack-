@@ -1,2 +1,27 @@
 /// vue
 
+frontend-vue/
+
+src/
+
+components/
+
+ProductCard.vue
+
+SearchBar.vue
+
+views/
+
+Dashboard.vue
+
+Login.vue
+
+services/
+
+api.js
+
+App.vue
+
+main.js
+
+
