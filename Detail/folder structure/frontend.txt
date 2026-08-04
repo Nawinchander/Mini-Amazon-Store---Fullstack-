@@ -1,4 +1,29 @@
 ///// frontend 
 
 
+frontend-react/
+
+src/
+
+components/
+
+ProductCard.jsx
+
+SearchBar.jsx
+
+pages/
+
+Dashboard.jsx
+
+Login.jsx
+
+services/
+
+api.js
+
+App.jsx
+
+main.jsx
+
+
 
