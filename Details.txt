@@ -1,0 +1,7 @@
+Mini Amazon Store
+
+
+Perfect. A simple but FAANG-style project is much better for GitHub than an overly complex one. We'll keep the code concise while following good folder structure, MVC architecture, REST APIs, testing, Docker, and CI/CD.
+
+
+
