@@ -1,0 +1,19 @@
+Part 5
+
+Vue
+
+Same functionality.
+
+Part 6
+
+Docker
+
+Part 7
+
+CI/CD
+
+Part 8
+
+Testing
+
+
