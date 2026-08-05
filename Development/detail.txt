@@ -17,3 +17,23 @@ Part 8
 Testing
 
 
+How I'll provide the code
+
+Instead of skipping files, each response will follow this format:
+
+backend/
+
+controllers/
+
+product.controller.js
+// complete code
+
+
+backend/
+
+services/
+
+product.service.js
+// complete code
+
+
