@@ -47,5 +47,18 @@ product.routes.js
 
 //// size
 
+| Module    |         Files |
+| --------- | ------------: |
+| Backend   |           ~25 |
+| React     |           ~15 |
+| Vue       |           ~15 |
+| Docker    |            ~3 |
+| CI/CD     |            ~2 |
+| Tests     |            ~5 |
+| Docs      |            ~5 |
+| **Total** | **~70 files** |
+
+
+
 
 
