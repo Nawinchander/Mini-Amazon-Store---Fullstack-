@@ -1,4 +1,17 @@
 /// authentication
 
+controllers/
+
+auth.controller.js
+
+routes/
+
+auth.routes.js
+
+middleware/
+
+auth.js
+
+
 
 
