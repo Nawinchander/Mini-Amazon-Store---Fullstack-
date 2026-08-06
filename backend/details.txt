@@ -1,0 +1,17 @@
+npm run dev
+
+Output
+
+Server running on port 5000
+
+Open browser
+
+http://localhost:5000
+
+Output
+
+{
+   "message":"Mini Amazon API Running"
+}
+
+
