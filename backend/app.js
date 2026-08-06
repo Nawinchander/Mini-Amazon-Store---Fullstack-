@@ -17,3 +17,10 @@ app.get("/", (req, res) => {
 });
 
 
+app.use("/api/products", productRoutes);
+
+app.use("/api/auth", authRoutes);
+
+module.exports = app;
+
+
