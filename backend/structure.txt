@@ -1,5 +1,22 @@
 /// struct
 
+backend/
+│
+├── config/
+├── controllers/
+├── middleware/
+├── models/
+├── routes/
+├── services/
+├── tests/
+│
+├── app.js
+├── server.js
+├── package.json
+├── .env
+├── Dockerfile
+
+
 
 
 
