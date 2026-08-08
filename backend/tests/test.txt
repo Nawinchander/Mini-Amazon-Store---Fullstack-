@@ -1,0 +1,9 @@
+| Method | URL               | Description  |
+| ------ | ----------------- | ------------ |
+| GET    | `/`               | Home API     |
+| POST   | `/api/auth/login` | Login        |
+| GET    | `/api/products`   | Get Products |
+| POST   | `/api/products`   | Add Product  |
+
+
+
