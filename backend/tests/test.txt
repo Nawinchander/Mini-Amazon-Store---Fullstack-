@@ -6,4 +6,16 @@
 | POST   | `/api/products`   | Add Product  |
 
 
+{
+    "name":"iPhone 16",
+    "price":89999,
+    "category":"Mobile",
+    "image":"iphone.jpg"
+}
+
+
+npm install
+npm run dev
+
+
 
