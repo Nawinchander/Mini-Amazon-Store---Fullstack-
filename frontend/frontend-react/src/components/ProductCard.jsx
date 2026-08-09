@@ -25,3 +25,25 @@ function ProductCard({ product }) {
 export default ProductCard;
 
 
+
+
+// Purpose
+
+// This component displays one product.
+
+// For example:
+
+// ┌──────────────────────┐
+// │      Product Image   │
+// │                      │
+// │ iPhone 16            │
+// │ Mobile               │
+// │ ₹89999               │
+// │                      │
+// │ [ Add to Cart ]      │
+// └──────────────────────┘
+
+
+
+
+
