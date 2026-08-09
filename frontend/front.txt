@@ -42,5 +42,15 @@ frontend-react/
 
 
 
+| Folder/File  | Purpose                   |
+| ------------ | ------------------------- |
+| `components` | Reusable UI components    |
+| `pages`      | Main application screens  |
+| `services`   | Backend/API communication |
+| `App.jsx`    | Main React component      |
+| `main.jsx`   | React entry point         |
+| `index.css`  | Application styling       |
+| `Dockerfile` | Runs React in Docker      |
+
 
 
