@@ -13,3 +13,22 @@ function SearchBar({ search, setSearch }) {
 export default SearchBar;
 
 
+// Explanation
+
+// The parent component gives:
+
+// search
+// setSearch
+
+// The input updates the search value.
+
+// For example:
+
+// Search: phone
+
+// The dashboard can then display only products containing "phone".
+
+
+
+
+
