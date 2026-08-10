@@ -26,6 +26,19 @@ export default App;
 
 
 
+// Application flow
+// App
+//  │
+//  ├── Not logged in
+//  │       ↓
+//  │     Login
+//  │
+//  └── Logged in
+//          ↓
+//       Dashboard
+//          ↓
+//       Products
+
 
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
