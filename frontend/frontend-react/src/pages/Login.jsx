@@ -49,4 +49,23 @@ function Login({ setLoggedIn }) {
 export default Login;
 
 
+// What happens?
+
+// When the user clicks:
+
+// Login
+//  ↓
+// React
+//  ↓
+// Axios
+//  ↓
+// POST /api/auth/login
+//  ↓
+// Node.js
+//  ↓
+// JWT Token
+//  ↓
+// localStorage
+
+
 
