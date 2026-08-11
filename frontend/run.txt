@@ -1,0 +1,18 @@
+Start Backend
+
+First terminal:
+
+cd backend
+npm run dev
+
+Backend:
+
+http://localhost:5000
+15. Start React
+
+Second terminal:
+
+cd frontend-react
+npm run dev
+
+
