@@ -33,4 +33,47 @@ You should get:
 
 
 
+http://localhost:5173
+
+You should get:
+
+       Mini Amazon
+
+          Login
+
+       [ Login ]
+
+Click Login.
+
+The backend returns:
+
+{
+    "message": "Login Successful",
+    "token": "..."
+}
+
+
+The token is stored in:
+
+localStorage
+
+Then React displays:
+
+Mini Amazon     [ Search products... ] [Add Product]
+
+Products
+
+┌────────────┐ ┌────────────┐ ┌────────────┐
+│   Image    │ │   Image    │ │   Image    │
+│            │ │            │ │            │
+│ iPhone 16  │ │ Samsung    │ │ Laptop     │
+│ ₹89999     │ │ ₹50000     │ │ ₹70000     │
+│            │ │            │ │            │
+│ Add Cart   │ │ Add Cart   │ │ Add Cart   │
+└────────────┘ └────────────┘ └────────────┘
+
+
+
+
+
 
