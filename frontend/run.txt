@@ -15,4 +15,22 @@ Second terminal:
 cd frontend-react
 npm run dev
 
+http://localhost:5173
+16. Test the Application
+
+Open:
+
+http://localhost:5173
+
+You should get:
+
+       Mini Amazon
+
+          Login
+
+       [ Login ]
+
+
+
+
 
