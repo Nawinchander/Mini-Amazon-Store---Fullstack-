@@ -54,3 +54,31 @@ frontend-react/
 
 
 
+frontend-react/
+│
+├── src/
+│   │
+│   ├── components/
+│   │   ├── ProductCard.jsx
+│   │   └── SearchBar.jsx
+│   │
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   └── Login.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+│
+├── Dockerfile
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── index.html
+
+
