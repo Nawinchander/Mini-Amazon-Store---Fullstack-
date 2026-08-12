@@ -29,3 +29,19 @@ export const addProduct = (product) => {
 
 export default API;
 
+
+
+// Why do we need this?
+
+// Instead of writing Axios code inside every Vue component:
+
+// Login.vue
+// Dashboard.vue
+// ProductCard.vue
+
+// we keep API communication in one place:
+
+// services/
+// └── api.js
+
+
