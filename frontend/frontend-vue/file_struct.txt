@@ -1,0 +1,28 @@
+frontend-vue/
+│
+├── src/
+│   │
+│   ├── components/
+│   │   ├── ProductCard.vue
+│   │   └── SearchBar.vue
+│   │
+│   ├── views/
+│   │   ├── Dashboard.vue
+│   │   └── Login.vue
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── App.vue
+│   ├── main.js
+│   └── style.css
+│
+├── public/
+│
+├── Dockerfile
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── index.html
+
+
