@@ -1,0 +1,29 @@
+5. Backend APIs Used
+
+Our Vue application will communicate with:
+
+POST /api/auth/login
+GET  /api/products
+POST /api/products
+
+Architecture:
+
+Vue
+ │
+ │ Axios
+ ▼
+Express API
+ │
+ ├── /api/auth/login
+ │
+ └── /api/products
+       │
+       ▼
+    MongoDB
+
+This is why the backend is framework-independent.
+
+React and Vue can both use exactly the same APIs
+
+
+
