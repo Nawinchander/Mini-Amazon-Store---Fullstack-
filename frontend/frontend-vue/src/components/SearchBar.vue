@@ -15,39 +15,19 @@ defineProps({
     search: String
 });
 
-const emit = defineEmits([
-    "update:search"
-]);
+const emit = defineEmits(["update:search"]);
 
-const updateSearch = (event) => {
-
-    emit(
-        "update:search",
-        event.target.value
-    );
-
-};
+const updateSearch = (event) => { emit("update:search", event.target.value ); };
 
 </script>
 
 
-How SearchBar Works
+<!-- How SearchBar Works Dashboard sends the search value: -->
 
-Dashboard sends the search value:
+<SearchBar :search="search" @update:search="search = $event" />
 
-<SearchBar
-    :search="search"
-    @update:search="search = $event"
-/>
+<!-- When the user enters: iphone - the value becomes: search = "iphone";
 
-When the user enters:
-
-iphone
-
-the value becomes:
-
-search = "iphone";
-
-Then Dashboard filters the products.
+Then Dashboard filters the products. -->
 
 
