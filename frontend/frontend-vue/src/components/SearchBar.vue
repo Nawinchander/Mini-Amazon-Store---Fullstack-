@@ -31,3 +31,23 @@ const updateSearch = (event) => {
 </script>
 
 
+How SearchBar Works
+
+Dashboard sends the search value:
+
+<SearchBar
+    :search="search"
+    @update:search="search = $event"
+/>
+
+When the user enters:
+
+iphone
+
+the value becomes:
+
+search = "iphone";
+
+Then Dashboard filters the products.
+
+
