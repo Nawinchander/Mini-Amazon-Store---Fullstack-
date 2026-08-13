@@ -8,14 +8,9 @@
 
             <h2>Mini Amazon</h2>
 
-            <SearchBar
-                :search="search"
-                @update:search="search = $event"
-            />
+            <SearchBar :search="search" @update:search="search = $event" />
 
-            <button @click="addNewProduct">
-                Add Product
-            </button>
+            <button @click="addNewProduct"> Add Product </button>
 
         </header>
 
@@ -26,10 +21,7 @@
 
             <h1>Products</h1>
 
-            <p>
-                {{ filteredProducts.length }}
-                products found
-            </p>
+            <p> {{ filteredProducts.length }} products found </p>
 
             <div class="products">
 
@@ -50,22 +42,13 @@
 
 <script setup>
 
-import {
-    ref,
-    computed,
-    onMounted
-} from "vue";
+import { ref, computed, onMounted } from "vue";
 
-import {
-    getProducts,
-    addProduct
-} from "../services/api";
+import { getProducts, addProduct } from "../services/api";
 
-import SearchBar
-    from "../components/SearchBar.vue";
+import SearchBar from "../components/SearchBar.vue";
 
-import ProductCard
-    from "../components/ProductCard.vue";
+import ProductCard from "../components/ProductCard.vue";
 
 
 /* Products */
@@ -159,6 +142,19 @@ onMounted(() => {
 </script>
 
 
+
+<!-- 13. Dashboard Explanation
+
+There are three important Vue concepts here.
+
+ref() const products = ref([]);
+
+Stores reactive data.
+
+When: products.value = response.data;
+
+changes, Vue automatically updates the UI.
+ -->
 
 
 
