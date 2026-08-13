@@ -79,4 +79,19 @@ Vue calls: -->
 
 
 
+<!-- Vue stores:
+
+localStorage.setItem("token", token);
+
+Then:
+
+Login.vue
+    ↓
+App.vue
+    ↓
+Dashboard.vue -->
+
+
+
+
 
