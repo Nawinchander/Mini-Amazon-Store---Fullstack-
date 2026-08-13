@@ -23,4 +23,22 @@ defineProps({ product: Object });
 </script>
 
 
+<!-- 
+What ProductCard Does
+
+The Dashboard gets: -->
+
+{
+    "name": "iPhone 16",
+    "price": 89999,
+    "category": "Mobile",
+    "image": "iphone.jpg"
+}
+
+// and passes it:
+
+<ProductCard :product="product" />
+
+
+
 
