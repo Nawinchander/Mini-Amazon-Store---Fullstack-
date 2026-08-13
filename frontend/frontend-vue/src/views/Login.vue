@@ -60,4 +60,23 @@ const login = async () => {
 
 </script>
 
+<!-- 11. Login Flow
+
+When the user clicks:
+
+Login
+
+Vue calls: -->
+
+// POST http://localhost:5000/api/auth/login
+
+// Backend returns:
+
+{
+    "message": "Login Successful",
+    "token": "JWT_TOKEN"
+}
+
+
+
 
