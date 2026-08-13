@@ -40,5 +40,19 @@ The Dashboard gets: -->
 <ProductCard :product="product" />
 
 
+<!-- 
 
+┌──────────────────────┐
+│                      │
+│       IMAGE          │
+│                      │
+├──────────────────────┤
+│ iPhone 16            │
+│ Mobile               │
+│ ₹89999               │
+│                      │
+│   [ Add to Cart ]    │
+└──────────────────────┘
+ -->
 
+ 
