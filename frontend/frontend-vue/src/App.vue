@@ -43,7 +43,18 @@ Login.vue
 
 If token exists:
 
+<!-- 
+
 Dashboard.vue -->
 
+                    App.vue
+                       │
+              Is token available?
+                 /           \
+               No             Yes
+               │               │
+               ▼               ▼
+           Login.vue      Dashboard.vue
+ -->
 
-
+ 
