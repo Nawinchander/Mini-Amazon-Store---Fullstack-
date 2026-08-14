@@ -157,4 +157,25 @@ changes, Vue automatically updates the UI.
  -->
 
 
+computed()
+
+const filteredProducts = computed(() => {
+
+// This calculates the search results.
+
+// For example:
+
+// Products:
+
+<!-- iPhone 16
+Samsung Galaxy
+MacBook Air
+iPad -->
+
+<!-- Search: iphone
+
+Result: iPhone 16 -->
+
+
+
 
