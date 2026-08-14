@@ -1,13 +1,8 @@
 <template>
 
-    <Login
-        v-if="!loggedIn"
-        @login="loggedIn = true"
-    />
+    <Login v-if="!loggedIn" @login="loggedIn = true"/>
 
-    <Dashboard
-        v-else
-    />
+    <Dashboard v-else />
 
 </template>
 
@@ -16,16 +11,12 @@
 
 import { ref } from "vue";
 
-import Login
-    from "./views/Login.vue";
+import Login from "./views/Login.vue";
 
-import Dashboard
-    from "./views/Dashboard.vue";
+import Dashboard from "./views/Dashboard.vue";
 
 
-const loggedIn = ref(
-    !!localStorage.getItem("token")
-);
+const loggedIn = ref( !!localStorage.getItem("token"));
 
 </script>
 
