@@ -159,7 +159,7 @@ changes, Vue automatically updates the UI.
 
 computed()
 
-const filteredProducts = computed(() => {
+// const filteredProducts = computed(() => {
 
 // This calculates the search results.
 
@@ -177,5 +177,28 @@ iPad -->
 Result: iPhone 16 -->
 
 
+<!-- /////////////////////////////////////
 
+
+
+onMounted()
+onMounted(() => { loadProducts(); });
+
+This executes when Dashboard is loaded.
+
+So:
+
+Dashboard opens
+      ↓
+onMounted()
+      ↓
+loadProducts()
+      ↓
+GET /api/products
+      ↓
+MongoDB
+      ↓
+Products displayed
+ -->
+ 
 
