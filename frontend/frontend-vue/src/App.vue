@@ -28,3 +28,22 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <HelloWorld />
 </template> -->
+
+
+
+<!-- What App.vue Does
+
+It checks:
+
+localStorage.getItem("token")
+
+If there is no token:
+
+Login.vue
+
+If token exists:
+
+Dashboard.vue -->
+
+
+
