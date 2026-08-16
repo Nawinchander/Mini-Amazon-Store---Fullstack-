@@ -103,6 +103,36 @@ Backend verifies the token and saves the product.
 Your architecture is
 
 
+                     ┌──────────────────┐
+                     │   Node + Express │
+                     │    REST API      │
+                     └────────┬─────────┘
+                              │
+                ┌─────────────┴─────────────┐
+                │                           │
+                ▼                           ▼
+        ┌───────────────┐           ┌───────────────┐
+        │ React Frontend│           │ Vue Frontend  │
+        └───────────────┘           └───────────────┘
+                │                           │
+                └─────────────┬─────────────┘
+                              │
+                           Axios
+
+
+
+
+Both call:
+
+POST /api/auth/login
+GET  /api/products
+POST /api/products
+
+This is a good portfolio/interview point because you can say:
+
+"I designed the backend as a framework-independent REST API. I implemented two clients, React and Vue, that consume the same Node.js/Express services."
+
+
 
 
 
