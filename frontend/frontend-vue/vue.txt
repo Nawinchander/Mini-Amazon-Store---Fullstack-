@@ -15,3 +15,24 @@ Step 2 — Click Login
 
 Vue:
 
+Step 2 — Click Login
+
+Vue:
+
+POST /api/auth/login
+
+Backend:
+
+jwt.sign(...)
+
+Vue receives:
+
+{
+    "message": "Login Successful",
+    "token": "..."
+}
+
+
+
+
+
