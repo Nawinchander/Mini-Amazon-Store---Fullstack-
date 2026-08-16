@@ -133,6 +133,24 @@ This is a good portfolio/interview point because you can say:
 "I designed the backend as a framework-independent REST API. I implemented two clients, React and Vue, that consume the same Node.js/Express services."
 
 
+24. React vs Vue in Your Project
+Feature	React	Vue
+Entry	main.jsx	main.js
+Main component	App.jsx	App.vue
+Components	.jsx	.vue
+State	useState()	ref()
+Lifecycle	useEffect()	onMounted()
+Derived state	filtering directly	computed()
+API	Axios	Axios
+Backend	Same	Same
+Database	Same	Same
+Authentication	JWT	JWT
+
+So you're demonstrating both frontend frameworks without duplicating backend logic.
+
+Your next layer should be Docker Compose, where MongoDB + MySQL + Node.js + React + Vue can all be
+
+
 
 
 
