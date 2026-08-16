@@ -71,6 +71,25 @@ Filtered products
 
 No new backend request is required for this simple version because filtering happens in the browser.
 
+Step 5 — Add Product
 
+Click:
+
+Add Product
+
+Vue sends:
+
+POST /api/products
+
+with:
+
+{
+    "name": "Samsung Galaxy",
+    "price": 50000,
+    "category": "Mobile",
+    "image": "https://via.placeholder.com/200"
+}
+
+and:
 
 
