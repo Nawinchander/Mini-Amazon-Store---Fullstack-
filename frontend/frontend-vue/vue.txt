@@ -53,5 +53,24 @@ MongoDB
 Products return to Vue.
 
 
+Step 4 — Search
+
+User types:
+
+iphone
+
+Vue:
+
+SearchBar.vue
+      ↓
+Dashboard.vue
+      ↓
+computed()
+      ↓
+Filtered products
+
+No new backend request is required for this simple version because filtering happens in the browser.
+
+
 
 
