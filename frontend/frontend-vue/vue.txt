@@ -92,4 +92,18 @@ with:
 
 and:
 
+and:
+
+Authorization: JWT_TOKEN
+
+Backend verifies the token and saves the product.
+
+23. React and Vue Now Use the Same Backend
+
+Your architecture is
+
+
+
+
+
 
