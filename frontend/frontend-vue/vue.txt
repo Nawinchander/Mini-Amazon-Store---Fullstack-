@@ -34,5 +34,24 @@ Vue receives:
 
 
 
+Step 3 — Dashboard Loads
+
+Vue calls:
+
+GET /api/products
+
+Backend:
+
+Route
+ ↓
+Controller
+ ↓
+Service
+ ↓
+MongoDB
+
+Products return to Vue.
+
+
 
 
