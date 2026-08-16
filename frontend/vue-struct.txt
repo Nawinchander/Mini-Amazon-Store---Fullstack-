@@ -94,4 +94,30 @@ frontend-vue/
 └── index.html
 
 
+Start the Backend
+
+Open Terminal 1:
+
+cd backend
+npm run dev
+
+Backend should run on:
+
+http://localhost:5000
+
+
+
+21. Start Vue
+
+Open Terminal 2:
+
+cd frontend-vue
+npm run dev
+
+Open the URL shown by Vite:
+
+http://localhost:5173
+
+
+
 
