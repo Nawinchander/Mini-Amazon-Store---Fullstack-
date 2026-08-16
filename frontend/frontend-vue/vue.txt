@@ -1,0 +1,17 @@
+22. Test the Complete Flow
+Step 1 — Open Vue
+http://localhost:5173
+
+You see:
+
+┌──────────────────────────┐
+│      Mini Amazon         │
+│                          │
+│        Login             │
+│                          │
+│       [ Login ]          │
+└──────────────────────────┘
+Step 2 — Click Login
+
+Vue:
+
