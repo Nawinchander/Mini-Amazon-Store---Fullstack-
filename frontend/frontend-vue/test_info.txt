@@ -1,0 +1,10 @@
+React
+Axios
+Vitest
+React Testing Library
+JSDOM
+
+
+
+
+
