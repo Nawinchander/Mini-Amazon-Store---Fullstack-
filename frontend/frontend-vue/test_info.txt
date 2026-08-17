@@ -5,6 +5,22 @@ React Testing Library
 JSDOM
 
 
+Why two commands?
+
+Development:
+
+npm test
+
+Runs tests continuously.
+
+CI/CD:
+
+npm run test:run
+
+Runs tests once and exits.
+
+
+
 
 
 
