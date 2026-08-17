@@ -42,5 +42,19 @@ describe("ProductCard", () => {
 
 
 
+// What are we testing?
+
+// We're checking that:
+
+// ProductCard
+//    ↓
+// Product name
+// Product category
+// Product price
+// Add to Cart button
+
+// are rendered correctly.
+
+
 
 
