@@ -38,5 +38,23 @@ You can add Dashboard integration tests later.
 
 
 
+React Application
+       │
+       ├── ProductCard
+       │      ↓
+       │    Test
+       │
+       ├── SearchBar
+       │      ↓
+       │    Test
+       │
+       └── Login
+              ↓
+            Mock API
+              ↓
+            Test
+
+
+            
 
 
