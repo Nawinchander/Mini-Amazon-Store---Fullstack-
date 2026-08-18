@@ -8,17 +8,33 @@
 
 
 
+// import { defineConfig } from "vite";
+// import react from "@vitejs/plugin-react";
+
+// export default defineConfig({
+//     plugins: [react()],
+
+//     test: {
+//         environment: "jsdom",
+//         globals: true,
+//         setupFiles: "./tests/setup.js"
+//     }
+// });
+
+
+
+
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
-    plugins: [react()],
+    plugins: [vue()],
 
     test: {
         environment: "jsdom",
-        globals: true,
-        setupFiles: "./tests/setup.js"
+        globals: true
     }
 });
+
 
 
