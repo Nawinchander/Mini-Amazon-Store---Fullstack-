@@ -28,4 +28,12 @@ frontend-vue/
 
 
 
+Vue
+Axios
+Vitest
+Vue Test Utils
+JSDOM
+
+
+
 
