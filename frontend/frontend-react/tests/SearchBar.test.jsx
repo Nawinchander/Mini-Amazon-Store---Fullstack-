@@ -38,3 +38,14 @@ describe("SearchBar", () => {
 
 
 
+// User types "iphone"
+//         ↓
+// SearchBar
+//         ↓
+// setSearch()
+//         ↓
+// "iphone"
+
+
+
+
