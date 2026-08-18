@@ -7,3 +7,18 @@ http://localhost:5000/api/products
 Express
 
 
+
+npm test
+
+
+
+✓ tests/ProductCard.test.jsx
+✓ tests/SearchBar.test.jsx
+✓ tests/Login.test.jsx
+
+Test Files  3 passed
+Tests       3 passed
+
+
+
+
