@@ -28,3 +28,15 @@ frontend-react/
 
 
 
+For this mini project, we'll test:
+
+ProductCard
+SearchBar
+Login
+
+You can add Dashboard integration tests later.
+
+
+
+
+
