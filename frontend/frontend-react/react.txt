@@ -20,5 +20,8 @@ Test Files  3 passed
 Tests       3 passed
 
 
+npm run test:run
+
+
 
 

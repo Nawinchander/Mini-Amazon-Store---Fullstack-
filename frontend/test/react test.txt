@@ -1,0 +1,30 @@
+frontend-react/
+│
+├── src/
+│   ├── components/
+│   │   ├── ProductCard.jsx
+│   │   └── SearchBar.jsx
+│   │
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   └── Login.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── tests/
+│   ├── ProductCard.test.jsx
+│   ├── SearchBar.test.jsx
+│   └── Login.test.jsx
+│
+├── package.json
+├── vite.config.js
+├── index.html
+└── Dockerfile
+
+
+
