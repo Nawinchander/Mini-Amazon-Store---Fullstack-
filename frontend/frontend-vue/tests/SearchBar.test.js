@@ -35,3 +35,14 @@ describe("SearchBar", () => {
 
 
 
+// This verifies:
+
+// User types iphone
+//        ↓
+// SearchBar
+//        ↓
+// update:search event
+//        ↓
+// "iphone"
+
+
