@@ -24,21 +24,13 @@ describe("ProductCard", () => {
             }
         );
 
-        expect(
-            wrapper.text()
-        ).toContain("iPhone 16");
+        expect(wrapper.text()).toContain("iPhone 16");
 
-        expect(
-            wrapper.text()
-        ).toContain("Mobile");
+        expect(wrapper.text()).toContain("Mobile");
 
-        expect(
-            wrapper.text()
-        ).toContain("89999");
+        expect(wrapper.text()).toContain("89999");
 
-        expect(
-            wrapper.get("button")
-        ).toBeTruthy();
+        expect(wrapper.get("button")).toBeTruthy();
 
     });
 
