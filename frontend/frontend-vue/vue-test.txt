@@ -1,0 +1,21 @@
+Run Vue Tests
+
+Run:
+
+npm test
+
+Or for CI/CD:
+
+npm run test:run
+
+Expected result:
+
+✓ tests/ProductCard.test.js
+✓ tests/SearchBar.test.js
+✓ tests/Login.test.js
+
+
+Test Files  3 passed
+Tests       3 passed
+
+
