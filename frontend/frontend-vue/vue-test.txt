@@ -34,4 +34,15 @@ Vue	Login	API login + JWT
 
 
 
+The important concept is that we mock the API during frontend unit tests.
+
+For example:
+
+vi.mock("../src/services/api", () => ({
+    loginUser: vi.fn()
+}));
+
+So the test does not depend on MongoDB, Node.js, or the network.
+
+
 
