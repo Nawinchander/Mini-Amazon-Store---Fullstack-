@@ -19,3 +19,19 @@ Test Files  3 passed
 Tests       3 passed
 
 
+What We're Testing
+
+You now have tests for the core frontend functionality:
+
+Application	Component	What is tested
+React	ProductCard	Product rendering
+React	SearchBar	Search input
+React	Login	API login + JWT
+Vue	ProductCard	Product rendering
+Vue	SearchBar	Search event
+Vue	Login	API login + JWT
+
+
+
+
+
