@@ -46,3 +46,29 @@ So the test does not depend on MongoDB, Node.js, or the network.
 
 
 
+The important concept is that we mock the API during frontend unit tests.
+
+For example:
+
+vi.mock("../src/services/api", () => ({
+    loginUser: vi.fn()
+}));
+
+So the test does not depend on MongoDB, Node.js, or the network.
+
+
+
+
+Next Step: CI/CD
+
+The natural next step is to add:
+
+.github/
+└── workflows/
+    └── ci.yml
+
+The GitHub Actions workflow can automatically:
+
+
+
+
