@@ -1,0 +1,24 @@
+Git Push
+   ↓
+GitHub Actions
+   ↓
+Install Backend
+   ↓
+Backend Tests
+   ↓
+Install React
+   ↓
+React Tests
+   ↓
+Install Vue
+   ↓
+Vue Tests
+   ↓
+Build React
+   ↓
+Build Vue
+   ↓
+SUCCESS
+
+
+
