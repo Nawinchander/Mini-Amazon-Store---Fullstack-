@@ -20,4 +20,25 @@
 
 
 
-       
+
+Testing Architecture
+
+Your project now has three testing layers:
+
+
+
+                         Testing
+                       │
+          ┌────────────┼────────────┐
+          │            │            │
+          ▼            ▼            ▼
+       Backend       React         Vue
+          │            │            │
+       Jest +       Vitest +      Vitest +
+       Supertest    RTL           Vue Test Utils
+          │            │            │
+          ▼            ▼            ▼
+       REST API     Components    Components
+          │
+          ▼
+       MongoDB  
