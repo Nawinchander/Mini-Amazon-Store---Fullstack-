@@ -1,0 +1,62 @@
+mini-amazon-store/
+│
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── tests/
+│   │   └── product.test.js
+│   ├── app.js
+│   ├── server.js
+│   ├── package.json
+│   └── Dockerfile
+│
+├── frontend-react/
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ProductCard.jsx
+│   │   │   └── SearchBar.jsx
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx
+│   │   │   └── Login.jsx
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── tests/
+│   │   ├── setup.js
+│   │   ├── ProductCard.test.jsx
+│   │   ├── SearchBar.test.jsx
+│   │   └── Login.test.jsx
+│   │
+│   ├── package.json
+│   ├── vite.config.js
+│   └── Dockerfile
+│
+└── frontend-vue/
+    │
+    ├── src/
+    │   ├── components/
+    │   │   ├── ProductCard.vue
+    │   │   └── SearchBar.vue
+    │   ├── views/
+    │   │   ├── Dashboard.vue
+    │   │   └── Login.vue
+    │   ├── services/
+    │   │   └── api.js
+    │   ├── App.vue
+    │   └── main.js
+    │
+    ├── tests/
+    │   ├── ProductCard.test.js
+    │   ├── SearchBar.test.js
+    │   └── Login.test.js
+    │
+    ├── package.json
+    ├── vite.config.js
+    └── Dockerfile
