@@ -18,4 +18,30 @@ npm install
 npm run dev
 
 
+backend/
+│
+├── tests/
+│   ├── product.test.js
+│   ├── auth.test.js
+│   └── product.service.test.js
+│
+└── ...
+
+
+Product API — product.test.js
+
+✓ GET /api/products returns products
+✓ GET /api/products returns 200
+✓ POST /api/products creates a product
+✓ POST /api/products rejects unauthenticated request
+✓ POST /api/products rejects invalid product data
+
+
+
+
+
+
+
+
+
 
