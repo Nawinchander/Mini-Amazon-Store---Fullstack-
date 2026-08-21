@@ -42,3 +42,30 @@ Your project now has three testing layers:
           │
           ▼
        MongoDB  
+
+
+
+                    Mini Amazon
+                         │
+          ┌──────────────┼──────────────┐
+          │              │              │
+       Backend         React           Vue
+          │              │              │
+       Jest +          Vitest +       Vitest +
+       Supertest       RTL            Vue Test Utils
+          │              │              │
+          ▼              ▼              ▼
+       REST APIs      Components     Components
+          │
+          ▼
+       Services
+          │
+     ┌────┴────┐
+     ▼         ▼
+  MongoDB    MySQL
+
+
+
+
+
+  
