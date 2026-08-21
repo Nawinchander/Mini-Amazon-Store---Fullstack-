@@ -53,6 +53,25 @@ Service layer — product.service.test.js
 
 
 
+Backend
+│
+├── API Tests
+│   ├── GET products
+│   ├── POST products
+│   ├── Authentication
+│   └── Validation
+│
+├── Auth Tests
+│   ├── Successful login
+│   └── Failed login
+│
+└── Service Tests
+    ├── Get products
+    └── Create product
+
+
+    
+
 
 
 
