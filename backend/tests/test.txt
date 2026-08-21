@@ -105,6 +105,21 @@ CI/CD
 GitHub Portfolio Project
 
 
+product.test.js
+        ↓
+REST API tests
+
+auth.test.js
+        ↓
+Authentication tests
+
+product.service.test.js
+        ↓
+Service layer tests
+
+
+
+
 
 
 
