@@ -37,6 +37,19 @@ Product API — product.test.js
 ✓ POST /api/products rejects invalid product data
 
 
+Authentication — auth.test.js
+
+
+✓ POST /api/auth/login returns JWT
+✓ POST /api/auth/login returns error for invalid credentials
+✓ Protected API rejects missing token
+
+
+Service layer — product.service.test.js
+
+
+✓ Service returns all products
+ Service creates a product
 
 
 
