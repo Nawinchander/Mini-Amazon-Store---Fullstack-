@@ -70,7 +70,40 @@ Backend
     └── Create product
 
 
-    
+                    Mini Amazon
+                         │
+          ┌──────────────┼──────────────┐
+          │              │              │
+       Backend         React           Vue
+          │              │              │
+       Jest +          Vitest +       Vitest +
+       Supertest       RTL            Vue Test Utils
+          │              │              │
+          ▼              ▼              ▼
+       REST APIs      Components     Components
+          │
+          ▼
+       Services
+          │
+     ┌────┴────┐
+     ▼         ▼
+  MongoDB    MySQL
+
+
+  Full Stack App
+      ↓
+Backend Tests
+      ↓
+React Tests
+      ↓
+Vue Tests
+      ↓
+Docker
+      ↓
+CI/CD
+      ↓
+GitHub Portfolio Project
+
 
 
 
