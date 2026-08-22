@@ -1,0 +1,23 @@
+13. Why Mock MongoDB?
+
+Notice this:
+
+jest.mock("../models/Product");
+
+We're not actually connecting to MongoDB.
+
+Instead:
+
+Product.find.mockResolvedValue(products);
+
+pretends MongoDB returned products.
+
+This makes the test:
+
+Fast
++
+Independent
++
+Easy to run in CI/CD
+
+
