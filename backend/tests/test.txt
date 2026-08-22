@@ -161,6 +161,57 @@ Therefore:
 const app = require("../app");
 
 
+What These Tests Do
+
+We now test:
+
+Test 1
+GET /api/products
+
+Expected:
+
+200 OK
+Test 2
+
+Checks that the response is an array:
+
+
+Test 2
+
+Checks that the response is an array:
+
+expect(Array.isArray(response.body))
+    .toBe(true);
+Test 3
+
+Try creating a product without JWT:
+
+POST /api/products
+       ↓
+No Authorization
+       ↓
+401 Unauthorized
+Test 4
+
+Create a product using JWT:
+
+POST /api/products
+       ↓
+JWT
+       ↓
+Product created
+Test 5
+
+Send invalid data:
+
+price: -100
+name: ""
+
+Expected:
+
+400 Bad Request
+
+
 
 
 
