@@ -212,6 +212,32 @@ Expected:
 400 Bad Request
 
 
+. What Authentication Tests Verify
+
+We're checking:
+
+Correct login
+      ↓
+JWT returned
+
+and:
+
+Wrong login
+      ↓
+Error
+
+and:
+
+Protected API
+      ↓
+No JWT
+      ↓
+401
+
+This is particularly useful in a portfolio because you're demonstrating that you understand authentication testing, not just CRUD testing.
+
+
+
 
 
 
