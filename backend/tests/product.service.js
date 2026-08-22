@@ -7,5 +7,17 @@ const getProducts = async () => {
 };
 
 
+const createProduct = async (product) => {
+
+    return Product.create(product);
+
+};
+
+module.exports = {
+    getProducts,
+    createProduct
+};
+
+// we can test it without actually using the Express route.
 
 
