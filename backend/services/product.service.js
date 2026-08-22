@@ -1,21 +1,41 @@
-/////  Purpose
+// /////  Purpose
 
 
-///// Business Logic
+// ///// Business Logic
+
+// const Product = require("../models/Product");
+
+// const getProducts = async () => {
+//     return await Product.find();
+// };
+
+// const addProduct = async (data) => {
+//     return await Product.create(data);
+// };
+
+// module.exports = { getProducts, addProduct };
+
+
+
 
 const Product = require("../models/Product");
 
 const getProducts = async () => {
-    return await Product.find();
+
+    return Product.find();
+
 };
 
-const addProduct = async (data) => {
-    return await Product.create(data);
+const createProduct = async (product) => {
+
+    return Product.create(product);
+
 };
 
-module.exports = { getProducts, addProduct };
-
-
+module.exports = {
+    getProducts,
+    createProduct
+};
 
 
 
