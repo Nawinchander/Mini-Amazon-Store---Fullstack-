@@ -118,7 +118,30 @@ product.service.test.js
 Service layer tests
 
 
+Testing Tools
 
+We'll use:
+
+Jest
+Supertest
+Jest
+
+Used to run tests and make assertions.
+
+Example:
+
+expect(result.statusCode).toBe(200);
+Supertest
+
+Used to test Express REST APIs.
+
+Example:
+
+request(app)
+    .get("/api/products");
+
+
+    
 
 
 
