@@ -108,4 +108,21 @@ mini-amazon-store/
 
 
 
+
+
+
+                    MINI AMAZON
+                         │
+          ┌──────────────┼──────────────┐
+          │              │              │
+       Backend          React          Vue
+          │              │              │
+       10 Tests        3 Tests        3 Tests
+          │              │              │
+       Jest +          Vitest +       Vitest +
+       Supertest       RTL            Vue Test Utils
+
+
+
+
   
