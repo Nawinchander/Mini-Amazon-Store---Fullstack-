@@ -30,6 +30,26 @@ or:
 
 npx jest tests/auth.test.js --runInBand
 
+or:
+
+npx jest tests/product.service.test.js --runInBand
+
+
+17. One Important Point About the JWT Test
+
+The following:
+
+.set(
+    "Authorization",
+    process.env.TEST_TOKEN
+)
+
+requires a valid test token.
+
+For a simple project, I recommend making your authentication middleware accept a dedicated test token only when NODE_ENV === "test".
+
+
+
 
 
 
