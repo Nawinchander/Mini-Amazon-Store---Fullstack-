@@ -108,6 +108,8 @@ mini-amazon-store/
 
 
 
+/// So your testing coverage becomes:
+
 
 
 
