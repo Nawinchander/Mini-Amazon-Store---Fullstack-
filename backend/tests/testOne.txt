@@ -9,6 +9,30 @@ run:
 npm test
 
 
+You should get something similar to:
+
+PASS tests/product.test.js
+PASS tests/auth.test.js
+PASS tests/product.service.test.js
+
+Test Suites: 3 passed, 3 total
+Tests:       10 passed, 10 total
+
+
+
+16. Run One Test File
+
+You can also run:
+
+npx jest tests/product.test.js --runInBand
+
+or:
+
+npx jest tests/auth.test.js --runInBand
+
+
+
+
 
 
 
