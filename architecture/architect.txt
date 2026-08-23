@@ -67,5 +67,45 @@ Your project now has three testing layers:
 
 
 
+mini-amazon-store/
+│
+├── backend/
+│   │
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   │
+│   ├── tests/
+│   │   ├── product.test.js
+│   │   ├── auth.test.js
+│   │   └── product.service.test.js
+│   │
+│   ├── app.js
+│   ├── server.js
+│   ├── package.json
+│   ├── Dockerfile
+│   └── .env
+│
+├── frontend-react/
+│   ├── src/
+│   ├── tests/
+│   │   ├── ProductCard.test.jsx
+│   │   ├── SearchBar.test.jsx
+│   │   └── Login.test.jsx
+│   └── package.json
+│
+└── frontend-vue/
+    ├── src/
+    ├── tests/
+    │   ├── ProductCard.test.js
+    │   ├── SearchBar.test.js
+    │   └── Login.test.js
+    └── package.json
+
+
+
 
   
