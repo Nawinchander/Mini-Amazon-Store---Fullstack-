@@ -250,6 +250,26 @@ backend/tests/
 └── product.service.test.js
 
 
+Total tests
+product.test.js
+├── GET products → 200
+├── GET products → array
+├── POST without JWT → 401
+├── POST with JWT → success
+└── POST invalid data → error
+
+auth.test.js
+├── Login → JWT
+├── Invalid login → error
+└── Protected API → 401
+
+product.service.test.js
+├── getProducts()
+└── createProduct()
+
+That's 10 backend tests.
+
+
 
 
 
