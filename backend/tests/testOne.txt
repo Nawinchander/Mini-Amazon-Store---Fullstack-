@@ -1,0 +1,14 @@
+15. Run All Backend Tests
+
+From:
+
+backend/
+
+run:
+
+npm test
+
+
+
+
+
