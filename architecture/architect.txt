@@ -126,5 +126,11 @@ mini-amazon-store/
 
 
 
+Total: ~16 tests, which is a very reasonable amount for a mini portfolio project.
+
+The next logical step is to add GitHub Actions CI/CD so every git push automatically runs all backend + React + Vue tests and builds all three applications.
+
+
+
 
   
