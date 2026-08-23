@@ -237,6 +237,19 @@ No JWT
 This is particularly useful in a portfolio because you're demonstrating that you understand authentication testing, not just CRUD testing.
 
 
+4. Final Backend Tests
+
+You now have:
+
+backend/tests/
+│
+├── product.test.js
+│
+├── auth.test.js
+│
+└── product.service.test.js
+
+
 
 
 
